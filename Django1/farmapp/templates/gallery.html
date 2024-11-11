@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <title>Gallery</title>
+</head>
+<body>
+<h1>Our Farm Gallery</h1>
+    <p>Take a look at our fresh produce and the farms that make it possible!</p>
+
+    <!-- Display each image individually -->
+    <img src="{% static 'images/farm1.jfif' %}" alt="Gallery image 1" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm2.jfif' %}" alt="Gallery image 2" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm3.jfif' %}" alt="Gallery image 3" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm4.jfif' %}" alt="Gallery image 4" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm5.jfif' %}" alt="Gallery image 5" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm6.jfif' %}" alt="Gallery image 6" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm7.jfif' %}" alt="Gallery image 7" width="200" style="margin: 10px;">
+    <img src="{% static 'images/farm8.jfif' %}" alt="Gallery image 8" width="200" style="margin: 10px;">
+
+    <p></p>
+    <a href="{% url 'home' %}">Back to Home</a>
+
+</body>
+</html>

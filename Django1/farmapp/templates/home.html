@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <title>Home Page</title>
+</head>
+<body>
+ <h1>Fresh produce at your convenience!</h1>
+    <p>Your trusted source for fresh, local farm produce in Nairobi. We bring the best of Nairobi's farms directly to your doorstep, ensuring quality and affordability.</p>
+
+    <h2>Our Mission</h2>
+    <p>We aim to make healthy, locally grown produce accessible to everyone in Nairobi. From fresh vegetables to organic fruits, we connect farmers with the community for a sustainable food future.</p>
+
+    <a href="{% url 'about' %}">About Us</a> |
+    <a href="{% url 'contact' %}">Contact Us</a> |
+    <a href="{% url 'gallery' %}">Gallery</a> |
+    <a href="{% url 'testimonials' %}">Testimonials</a>
+
+
+</body>
+</html>
